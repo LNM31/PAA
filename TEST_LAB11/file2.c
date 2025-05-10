@@ -64,52 +64,52 @@ int searchEdge(int graph[MAX][MAX], int u, int v)
 }
 
 // Function to perform BFS traversal
-void BFS(int graph[MAX][MAX], int start)
-{
-    // Initialize visited array
-    int visited[MAX] = { 0 };
-    int queue[MAX], front = 0, rear = 0;
-
-    // Mark the start node as visited and enqueue it
-    visited[start] = TRUE;
-    queue[rear++] = start;
-
-    while (front < rear) {
-        int current = queue[front++];
-        printf("%d ", current);
-
-        // Visit all the adjacent nodes
-        for (int i = 0; i < MAX; i++) {
-            if (graph[current][i] == 1 && !visited[i]) {
-                visited[i] = TRUE;
-                queue[rear++] = i;
-            }
-        }
-    }
-    printf("\n");
-}
+//void BFS(int graph[MAX][MAX], int start)
+//{
+//    // Initialize visited array
+//    int visited[MAX] = { 0 };
+//    int queue[MAX], front = 0, rear = 0;
+//
+//    // Mark the start node as visited and enqueue it
+//    visited[start] = TRUE;
+//    queue[rear++] = start;
+//
+//    while (front < rear) {
+//        int current = queue[front++];
+//        printf("%d ", current);
+//
+//        // Visit all the adjacent nodes
+//        for (int i = 0; i < MAX; i++) {
+//            if (graph[current][i] == 1 && !visited[i]) {
+//                visited[i] = TRUE;
+//                queue[rear++] = i;
+//            }
+//        }
+//    }
+//    printf("\n");
+//}
 
 // Function to perform DFS traversal
-void DFS(int graph[MAX][MAX], int start)
-{
-    // Initialize visited array
-    int visited[MAX] = { 0 };
-    DFSUtil(graph, start, visited);
-    printf("\n");
-}
-
-// Utility function for DFS traversal
-void DFSUtil(int graph[MAX][MAX], int start,
-    int visited[MAX])
-{
-    // Mark the current node as visited and print it
-    visited[start] = TRUE;
-    printf("%d ", start);
-
-    // Visit all the adjacent nodes
-    for (int i = 0; i < MAX; i++) {
-        if (graph[start][i] == 1 && !visited[i]) {
-            DFSUtil(graph, i, visited);
-        }
-    }
-}
+//void DFS(int graph[MAX][MAX], int start)
+//{
+//    // Initialize visited array
+//    int visited[MAX] = { 0 };
+//    DFSUtil(graph, start, visited);
+//    printf("\n");
+//}
+//
+//// Utility function for DFS traversal
+//void DFSUtil(int graph[MAX][MAX], int start,
+//    int visited[MAX])
+//{
+//    // Mark the current node as visited and print it
+//    visited[start] = TRUE;
+//    printf("%d ", start);
+//
+//    // Visit all the adjacent nodes
+//    for (int i = 0; i < MAX; i++) {
+//        if (graph[start][i] == 1 && !visited[i]) {
+//            DFSUtil(graph, i, visited);
+//        }
+//    }
+//}

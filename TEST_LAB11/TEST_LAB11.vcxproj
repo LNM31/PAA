@@ -134,9 +134,6 @@
   <ItemGroup>
     <Text Include="in.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <Image Include="..\..\..\..\Downloads\graf.png" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
