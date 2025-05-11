@@ -64,6 +64,7 @@ int citire(const char* file_name)
 	}
 	return n;
 }
+
 void BFS(int matrice[N][N], int start)
 {
 	int vizitat[N] = { 0 };
@@ -88,8 +89,8 @@ void BFS(int matrice[N][N], int start)
 	}
 	printf("\n");
 }
-int visited[N] = { 0 };
-void DFS_recursiv(int matrice[N][N], int start)
+
+void DFS_REALLY(int matrice[N][N],int visited[], int start)
 {
 	visited[start] = 1;
 	printf("%d ", start);
@@ -97,47 +98,76 @@ void DFS_recursiv(int matrice[N][N], int start)
 	{
 		if (matrice[start][i] == 1 && visited[i] == 0)
 		{
-			DFS_recursiv(matrice, i);
+			DFS_REALLY(matrice,visited, i);
 		}
 	}
 }
-
-
-// Utility function for DFS traversal
-void DFSUtil(int graph[N][N], int start,int visited[N])
+void DFS(int matrice[N][N], int start)
 {
-	// Mark the current node as visited and print it
-	visited[start] = 1;
-	printf("%d ", start);
-
-	// Visit all the adjacent nodes
-	for (int i = 0; i < N; i++)
-	{
-		if (graph[start][i] == 1 && !visited[i])
-		{
-			DFSUtil(graph, i, visited);
-		}
-	}
-}
-// Function to perform DFS traversal
-void DFS(int graph[N][N], int start)
-{
-	// Initialize visited array
 	int visited[N] = { 0 };
-	DFSUtil(graph, start, visited);
+	DFS_REALLY(matrice,visited,start);
 	printf("\n");
 }
 
+
+void ShortestPath(int matrice[N][N], int start,int finish) //with BFS
+{
+	int vizitat[N] = { 0 };
+	int parinte[N] = { 0 };
+	int coada[N], prim = 0, ultim = 0;
+	int size = 0;  //size of parents
+
+	vizitat[start] = 1;
+	parinte[start] = -1;
+	coada[ultim++] = start;
+
+	while (prim < ultim)
+	{
+		int current = coada[prim++];
+
+		for (int i = 0; i < N; i++)
+		{
+			if (matrice[current][i] == 1 && vizitat[i] == 0)
+			{
+				vizitat[i] = 1;
+				parinte[i] = current;
+				size = i + 1;
+				coada[ultim++] = i;
+			}
+		}
+	}
+
+	int drum[N] = { 0 };
+	int i = finish;// se incepe de la sfarsit ca sa aflam drumul
+
+	size = 0;//size of drum
+	drum[size++] = i;
+
+	while (i != start)
+	{
+		i = parinte[i];
+		drum[size++] = i;
+	}
+
+	for (int j = size - 1; j >= 0; j--)
+	{
+		printf("%d ", drum[j]);
+	}
+	printf("\n");
+}
 
 int main()
 {
 	int n;
 	init();
 	n=citire("in.txt");
+	printf("Matrice de adiacenta: \n");
 	display(12);
-	BFS(matrice, 0);
-	DFS_recursiv(matrice, 6);
-	printf("\n");
-	DFS(matrice, 6);
+	printf("BFS: ");
+	BFS(matrice, 4);
+	printf("DFS: ");
+	DFS(matrice, 4);
+	printf("Cel mai scurt drum: ");
+	ShortestPath(matrice,0,11);
 	return 0;
 }

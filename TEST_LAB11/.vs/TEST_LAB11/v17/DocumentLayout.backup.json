@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{EE8A745F-24CA-4F0E-BEA4-BA1A95E5B68A}|TEST_LAB11.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE8A745F-24CA-4F0E-BEA4-BA1A95E5B68A}|TEST_LAB11.vcxproj|C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\TEST_LAB11\\file2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EE8A745F-24CA-4F0E-BEA4-BA1A95E5B68A}|TEST_LAB11.vcxproj|solutionrelative:file2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EE8A745F-24CA-4F0E-BEA4-BA1A95E5B68A}|TEST_LAB11.vcxproj|C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\TEST_LAB11\\in.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{EE8A745F-24CA-4F0E-BEA4-BA1A95E5B68A}|TEST_LAB11.vcxproj|solutionrelative:in.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
@@ -22,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "in.txt",
               "DocumentMoniker": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\TEST_LAB11\\in.txt",
               "RelativeDocumentMoniker": "in.txt",
@@ -34,21 +30,7 @@
               "RelativeToolTip": "in.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-10T11:51:04.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "file2.c",
-              "DocumentMoniker": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\TEST_LAB11\\file2.c",
-              "RelativeDocumentMoniker": "file2.c",
-              "ToolTip": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\TEST_LAB11\\file2.c",
-              "RelativeToolTip": "file2.c",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAAAHIAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-05-10T11:33:17.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T11:51:04.96Z"
             },
             {
               "$type": "Document",
@@ -58,7 +40,7 @@
               "RelativeDocumentMoniker": "main.c",
               "ToolTip": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\TEST_LAB11\\main.c",
               "RelativeToolTip": "main.c",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAIsAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAAAKgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-05-10T10:30:58.375Z",
               "EditorCaption": ""

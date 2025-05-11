@@ -127,8 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="file.c" />
-    <ClCompile Include="file2.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>
   <ItemGroup>
