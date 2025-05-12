@@ -156,6 +156,23 @@ void ShortestPath(int matrice[N][N], int start,int finish) //with BFS
 	printf("\n");
 }
 
+int NrComponenteConexe(int matrice[N][N])
+{
+	int vizitat[N] = { 0 };
+	int count = 0;
+	for (int i = 0; i < N; i++)
+	{
+		for (int j = 0; j < N; j++)
+		{
+			if (matrice[i][j] == 1 && vizitat[j] == 0)
+			{
+				count++;
+				DFS_REALLY(matrice, vizitat, i);
+			}
+		}
+	}
+	return count;
+}
 int main()
 {
 	int n;
@@ -169,5 +186,6 @@ int main()
 	DFS(matrice, 4);
 	printf("Cel mai scurt drum: ");
 	ShortestPath(matrice,0,11);
+	printf("Numar componente conexe: %d\n",NrComponenteConexe(matrice));
 	return 0;
 }
