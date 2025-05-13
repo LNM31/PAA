@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\SimilareTest2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E442BA98-B8F6-47F5-B2C3-B2231B6FB3BB}|SimilareTest2.vcxproj|C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\SimilareTest2\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E442BA98-B8F6-47F5-B2C3-B2231B6FB3BB}|SimilareTest2.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E442BA98-B8F6-47F5-B2C3-B2231B6FB3BB}|SimilareTest2.vcxproj|C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\SimilareTest2\\in3.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E442BA98-B8F6-47F5-B2C3-B2231B6FB3BB}|SimilareTest2.vcxproj|solutionrelative:in3.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E442BA98-B8F6-47F5-B2C3-B2231B6FB3BB}|SimilareTest2.vcxproj|C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\SimilareTest2\\in2.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E442BA98-B8F6-47F5-B2C3-B2231B6FB3BB}|SimilareTest2.vcxproj|solutionrelative:in2.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E442BA98-B8F6-47F5-B2C3-B2231B6FB3BB}|SimilareTest2.vcxproj|C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\SimilareTest2\\in.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E442BA98-B8F6-47F5-B2C3-B2231B6FB3BB}|SimilareTest2.vcxproj|solutionrelative:in.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "in3.txt",
+              "DocumentMoniker": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\SimilareTest2\\in3.txt",
+              "RelativeDocumentMoniker": "in3.txt",
+              "ToolTip": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\SimilareTest2\\in3.txt",
+              "RelativeToolTip": "in3.txt",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-13T17:43:31.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "in2.txt",
+              "DocumentMoniker": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\SimilareTest2\\in2.txt",
+              "RelativeDocumentMoniker": "in2.txt",
+              "ToolTip": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\SimilareTest2\\in2.txt",
+              "RelativeToolTip": "in2.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-13T16:50:26.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "in.txt",
+              "DocumentMoniker": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\SimilareTest2\\in.txt",
+              "RelativeDocumentMoniker": "in.txt",
+              "ToolTip": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\SimilareTest2\\in.txt",
+              "RelativeToolTip": "in.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-13T15:36:14.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\SimilareTest2\\main.c",
+              "RelativeDocumentMoniker": "main.c",
+              "ToolTip": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\SimilareTest2\\main.c",
+              "RelativeToolTip": "main.c",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAAAFoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-13T15:25:21.188Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

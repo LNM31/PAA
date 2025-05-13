@@ -29,7 +29,7 @@ void display(int size)
 int citire(const char* file_name)
 {
 	FILE* f = fopen(file_name, "r");
-	int n = 0;
+	int n = 0,a,b;
 	if (f == NULL)
 	{
 		perror(NULL);
@@ -40,22 +40,10 @@ int citire(const char* file_name)
 		perror("Error reading n");
 		exit(-3);
 	}
-	int x = n, a, b;
-	while (x)
+	while (fscanf(f, "%d %d", &a, &b) == 2)
 	{
-		if (fscanf(f, "%d %d", &a, &b) != 2)
-		{
-			perror("error reading edge");
-			exit(-4);
-		}
-		if (a >= N || b >= N)
-		{
-			perror("index out of bounds");
-			exit(-2);
-		}
-		matrice[a][b] = 1;
-		matrice[b][a] = 1;
-		x--;
+		matrice[a%n][b%n]=1;
+		matrice[b % n][a % n] = 1;
 	}
 	if (fclose(f) != 0)
 	{
@@ -179,13 +167,13 @@ int main()
 	init();
 	n=citire("in.txt");
 	printf("Matrice de adiacenta: \n");
-	display(12);
+	display(n);
 	printf("BFS: ");
 	BFS(matrice, 4);
 	printf("DFS: ");
 	DFS(matrice, 4);
 	printf("Cel mai scurt drum: ");
-	ShortestPath(matrice,0,11);
+	ShortestPath(matrice,4,7);
 	printf("Numar componente conexe: %d\n",NrComponenteConexe(matrice));
 	return 0;
 }
