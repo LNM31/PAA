@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\KruskalAlgorithm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67BD78B9-4E81-47D3-8DEB-1FBF10FA5790}|KruskalAlgorithm.vcxproj|C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\KruskalAlgorithm\\kruskal404.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{67BD78B9-4E81-47D3-8DEB-1FBF10FA5790}|KruskalAlgorithm.vcxproj|solutionrelative:kruskal404.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67BD78B9-4E81-47D3-8DEB-1FBF10FA5790}|KruskalAlgorithm.vcxproj|C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\KruskalAlgorithm\\in.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{67BD78B9-4E81-47D3-8DEB-1FBF10FA5790}|KruskalAlgorithm.vcxproj|solutionrelative:in.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "in.txt",
+              "DocumentMoniker": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\KruskalAlgorithm\\in.txt",
+              "RelativeDocumentMoniker": "in.txt",
+              "ToolTip": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\KruskalAlgorithm\\in.txt",
+              "RelativeToolTip": "in.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-25T16:48:46.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "kruskal404.c",
+              "DocumentMoniker": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\KruskalAlgorithm\\kruskal404.c",
+              "RelativeDocumentMoniker": "kruskal404.c",
+              "ToolTip": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\KruskalAlgorithm\\kruskal404.c",
+              "RelativeToolTip": "kruskal404.c",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-25T15:44:07.159Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
