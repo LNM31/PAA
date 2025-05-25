@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\PrimAlgorithm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{123388A7-8B9B-45AD-AB0D-CDDEE12449C7}|PrimAlgorithm.vcxproj|C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\PrimAlgorithm\\prim.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{123388A7-8B9B-45AD-AB0D-CDDEE12449C7}|PrimAlgorithm.vcxproj|solutionrelative:prim.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{123388A7-8B9B-45AD-AB0D-CDDEE12449C7}|PrimAlgorithm.vcxproj|C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\PrimAlgorithm\\prim404.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{123388A7-8B9B-45AD-AB0D-CDDEE12449C7}|PrimAlgorithm.vcxproj|solutionrelative:prim404.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "prim404.c",
+              "DocumentMoniker": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\PrimAlgorithm\\prim404.c",
+              "RelativeDocumentMoniker": "prim404.c",
+              "ToolTip": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\PrimAlgorithm\\prim404.c",
+              "RelativeToolTip": "prim404.c",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-25T14:33:03.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "prim.c",
+              "DocumentMoniker": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\PrimAlgorithm\\prim.c",
+              "RelativeDocumentMoniker": "prim.c",
+              "ToolTip": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\PrimAlgorithm\\prim.c",
+              "RelativeToolTip": "prim.c",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-25T13:04:45.851Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

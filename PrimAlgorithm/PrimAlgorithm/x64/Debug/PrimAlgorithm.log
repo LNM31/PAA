@@ -1,0 +1,4 @@
+﻿  prim404.c
+C:\Users\leoma\Desktop\WorkSpace\PAA\PrimAlgorithm\prim404.c(40,17): warning C4013: 'minKey' undefined; assuming extern returning int
+C:\Users\leoma\Desktop\WorkSpace\PAA\PrimAlgorithm\prim404.c(24,1): warning C4716: 'printMST': must return a value
+  PrimAlgorithm.vcxproj -> C:\Users\leoma\Desktop\WorkSpace\PAA\PrimAlgorithm\x64\Debug\PrimAlgorithm.exe
