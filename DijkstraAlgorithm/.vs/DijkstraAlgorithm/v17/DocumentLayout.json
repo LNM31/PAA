@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\DijkstraAlgorithm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01B72F85-E121-47CE-863A-8F6DC0E3A06D}|DijkstraAlgorithm.vcxproj|C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\DijkstraAlgorithm\\dijkstra.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{01B72F85-E121-47CE-863A-8F6DC0E3A06D}|DijkstraAlgorithm.vcxproj|solutionrelative:dijkstra.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dijkstra.c",
+              "DocumentMoniker": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\DijkstraAlgorithm\\dijkstra.c",
+              "RelativeDocumentMoniker": "dijkstra.c",
+              "ToolTip": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\DijkstraAlgorithm\\dijkstra.c",
+              "RelativeToolTip": "dijkstra.c",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-25T17:46:49.917Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
