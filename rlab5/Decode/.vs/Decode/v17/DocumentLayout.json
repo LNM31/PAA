@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\LAB5\\Decode\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD479F50-26AC-4589-A618-DE84861A92CB}|Decode.vcxproj|C:\\Users\\leoma\\Downloads\\huffman_decode.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD479F50-26AC-4589-A618-DE84861A92CB}|Decode.vcxproj|C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\LAB5\\Encode\\in.txt.huffman||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "in.txt.huffman",
+              "DocumentMoniker": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\LAB5\\Encode\\in.txt.huffman",
+              "RelativeDocumentMoniker": "..\\Encode\\in.txt.huffman",
+              "ToolTip": "C:\\Users\\leoma\\Desktop\\WorkSpace\\PAA\\LAB5\\Encode\\in.txt.huffman",
+              "RelativeToolTip": "..\\Encode\\in.txt.huffman",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-29T09:33:42.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "huffman_decode.c",
+              "DocumentMoniker": "C:\\Users\\leoma\\Downloads\\huffman_decode.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\huffman_decode.c",
+              "ToolTip": "C:\\Users\\leoma\\Downloads\\huffman_decode.c",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\huffman_decode.c",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAKQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-29T09:14:08.566Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

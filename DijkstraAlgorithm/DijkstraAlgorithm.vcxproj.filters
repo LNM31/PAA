@@ -18,5 +18,13 @@
     <ClCompile Include="dijkstra.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="oldDijkstra.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="in.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

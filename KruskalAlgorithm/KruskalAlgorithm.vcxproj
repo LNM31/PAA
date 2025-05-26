@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="kruskal404.c" />
+    <ClCompile Include="kruskal.c" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt" />

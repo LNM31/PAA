@@ -1,3 +1,0 @@
-﻿  huffman_encode.c
-C:\Users\leoma\Downloads\huffman_encode.c(106,30): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
-  Encode.vcxproj -> C:\Users\leoma\Desktop\WorkSpace\PAA\LAB5\Encode\x64\Debug\Encode.exe

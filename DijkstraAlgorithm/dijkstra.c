@@ -1,75 +1,133 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include <limits.h>
-#include <stdbool.h>
+#include <stdlib.h>
 
-#define MAX 100
-#define V 5
+#define N 100
+#define inf 99999
 
-// Structur? pentru o pereche (vecin, greutate)
-typedef struct {
-    int node;
-    int weight;
-} Pair;
+int matrice[N][N];
+int dist[N]; // dist e D ul din tabelul de la curs
+int vizitat[N];
+int parinte[N]; //parinte e T ul din tabelul de la curs
 
-// Lista de adiacen??
-Pair adj[MAX][MAX]; // adj[i] con?ine vecinii nodului i
-int adjSize[MAX];   // câ?i vecini are fiecare nod
-
-// Adaug? muchie neorientat?
-void addEdge(int u, int v, int w) {
-    adj[u][adjSize[u]].node = v;
-    adj[u][adjSize[u]++].weight = w;
-
-    adj[v][adjSize[v]].node = u;
-    adj[v][adjSize[v]++].weight = w;
+void init(int matrice[N][N], int size) // e folosita in functia citire
+{
+	for (int i = 0; i < size; i++)
+	{
+		for (int j = 0; j < size; j++)
+		{
+			if (matrice[i][j] == 0 && i != j)
+			{
+				matrice[i][j] = inf;
+			}
+		}
+	}
 }
 
-// Dijkstra simplificat f?r? heap
-void dijkstra(int src, int dist[V]) {
-    bool visited[V] = { false };
-
-    // Ini?ializeaz? distan?ele
-    for (int i = 0; i < V; i++)
-        dist[i] = INT_MAX;
-
-    dist[src] = 0;
-
-    for (int count = 0; count < V - 1; count++) {
-        // Alege nodul nevizitat cu distan?a minim?
-        int min = INT_MAX, u = -1;
-        for (int i = 0; i < V; i++)
-            if (!visited[i] && dist[i] < min)
-                min = dist[i], u = i;
-
-        if (u == -1) break; // Toate nodurile accesibile au fost vizitate
-        visited[u] = true;
-
-        // Actualizeaz? vecinii
-        for (int i = 0; i < adjSize[u]; i++) {
-            int v = adj[u][i].node;
-            int w = adj[u][i].weight;
-            if (!visited[v] && dist[u] + w < dist[v])
-                dist[v] = dist[u] + w;
-        }
-    }
+int citire(const char* file_name)
+{
+	FILE* f = fopen(file_name, "r");
+	if (f == NULL)
+	{
+		perror("Error opening file!");
+		exit(-1);
+	}
+	int n;
+	if (fscanf(f, "%d", &n) != 1)
+	{
+		perror("Error reading n!");
+		exit(-1);
+	}
+	int a, b, c;
+	while (fscanf(f,"%d %d %d", &a, &b, &c) == 3)
+	{
+		matrice[a % n][b % n] = c;  //pentru orientat
+		//matrice[b % n][a % n] = c;  //pentru neorientat
+	}
+	if (fclose(f) != 0)
+	{
+		perror("Error closing file!");
+		exit(-1);
+	}
+	init(matrice, n);
+	return n;
 }
 
-// Test
-int main() {
-    int dist[V];
+void display(int matrice[N][N], int dist[N], int parinte[N], int size)
+{
+	for (int i = 0; i < size; i++)
+	{
+		printf("%2c ", 'A'+i);
+	}
+	printf("\n");
+	for (int i = 0; i < size; i++)
+	{
+		printf("%2d ", dist[i]);
+	}
+	printf("\n");
+	for (int i = 0; i < size; i++)
+	{
+		printf("%2c ", 'A'+parinte[i]);
+	}
+	printf("\n\n");
+}
 
-    addEdge(0, 1, 4);
-    addEdge(0, 2, 8);
-    addEdge(1, 4, 6);
-    addEdge(2, 3, 2);
-    addEdge(3, 4, 10);
+void dijkstra(int matrice[N][N],int size,int s) //s - source node
+{
 
-    dijkstra(0, dist);
+	for (int i = 0; i < size; i++)
+	{
+		vizitat[i] = 0;
+		dist[i] = matrice[s][i];
+		parinte[i] = s;
+	}
 
-    // Afi?eaz? distan?ele
-    for (int i = 0; i < V; i++)
-        printf("%d ", dist[i]);
-    printf("\n");
+	vizitat[s] = 1;
+	for (int i = 0; i < size - 1; i++)
+	{
+		int pmin = -1;
+		for (int i = 0; i < size; i++)
+		{
+			if (vizitat[i] == 0 && (pmin==-1 || dist[i] < dist[pmin]))
+			{
+				pmin = i;
+			}
+		}
 
-    return 0;
+		vizitat[pmin] = 1;
+		for (int i = 0; i < size; i++)
+		{
+			if (vizitat[i] == 0 && dist[pmin] + matrice[pmin][i] < dist[i])
+			{
+				dist[i] = dist[pmin] + matrice[pmin][i];
+				parinte[i] = pmin;
+			}
+		}
+	}
+	display(matrice, dist, parinte, size);
+}
+
+void drum(int source, int destination)
+{
+	int v[N] = { 0 };
+	int count = 0;
+	int i = destination;
+	while (i != source) //posibil loop infinit
+	{
+		v[count++] = i;
+		i = parinte[i];
+	}
+	printf("%c ", 'A' + source);
+	for (int i = count - 1; i >= 0; i--)
+	{
+		printf("%c ", 'A' + v[i]);
+	}
+}
+
+int main()
+{
+	int n = citire("in.txt");
+	dijkstra(matrice, n, 0);
+	drum(0, 2);
+	return 0;
 }
