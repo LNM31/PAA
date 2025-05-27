@@ -3,8 +3,9 @@
 #include <stdlib.h>
 
 #define N 50
+#define inf 99999
+int matrice[N][N];
 
-int edge[N][3];
 int citire(const char* file_name)
 {
 	FILE* f = fopen(file_name, "r");
@@ -13,7 +14,7 @@ int citire(const char* file_name)
 		perror(NULL);
 		exit(-1);
 	}
-	int count = 0, n = 0;
+	int n = 0;
 	if (fscanf(f, "%d", &n) != 1)
 	{
 		perror(NULL);
@@ -22,68 +23,55 @@ int citire(const char* file_name)
 	int a, b, c;
 	while (fscanf(f, "%d %d %d", &a, &b, &c) == 3)
 	{
-		edge[count][0] = a;
-		edge[count][1] = b;
-		edge[count++][2] = c;
+		matrice[a % n][b % n] = c;
+		matrice[b % n][a % n] = c;
 	}
 	if (fclose(f) != 0)
 	{
 		perror(NULL);
 		exit(-1);
 	}
-	return count;
+	return n;
 }
-int comparator(const int p1[], const int p2[])
-{
-	return p1[2] - p2[2];
-}
-int findParent(int parinte[], int componenta)
-{
-	if (parinte[componenta] == componenta)
-		return componenta;
 
-	return parinte[componenta] = findParent(parinte, parinte[componenta]);
-}
-void unionSet(int v, int u, int parinte[], int rank[])
+int kruskal(int matrice[N][N], int size)
 {
-	u = findParent(parinte, u);
-	v = findParent(parinte, v);
-
-	if (rank[u] < rank[v])
-		parinte[u] = v;
-	else if (rank[u] > rank[v])
-		parinte[v] = u;
-	else
-	{
-		parinte[v] = u;
-		rank[u]++;
-	}
-}
-void kruskal(int edge[N][3], int size)
-{
-	qsort(edge, size, sizeof(edge[0]), comparator);
-	int parinte[N];
-	int rank[N];
-
+	int s[N];
+	int cost = 0;
 	for (int i = 0; i < size; i++)
 	{
-		parinte[i] = i;
-		rank[i] = 0;
+		s[i] = i;
 	}
-
-	int minCost = 0;
-	for (int i = 0; i < size; i++)
+	int min, mini, minj;
+	for (int pas = 0; pas < size - 1; pas++)
 	{
-		int v1 = findParent(parinte, edge[i][0]);
-		int v2 = findParent(parinte, edge[i][1]);
-		if (v1 != v2)
+		min = inf; mini = -1; minj = -1;
+		for (int i = 0; i < size; i++)
 		{
-			unionSet(v1, v2, parinte, rank);
-			printf("%d - %d  %d\n", edge[i][0], edge[i][1], edge[i][2]);
-			minCost += edge[i][2];
+			for (int j = 0; j < size; j++)
+			{
+				if (matrice[i][j] && s[i] != s[j] && matrice[i][j] < min)
+				{
+					min = matrice[i][j];
+					mini = i;
+					minj = j;
+				}
+			}
 		}
+		
+		int from = s[minj];
+		int to = s[mini];
+		for (int i = 0; i < size; i++)
+		{
+			if (s[i] == from)
+			{
+				s[i] = to;
+			}
+		}
+		printf("%d - %d   %d\n", mini, minj, matrice[mini][minj]);
+		cost += matrice[mini][minj];
 	}
-	printf("\nminCost: %d \n", minCost);
+	printf("\ncost: %d\n", cost);
 }
 
 int main(int argc,char **argv)
@@ -94,7 +82,7 @@ int main(int argc,char **argv)
 		exit(-1);
 	}
 	int n = citire(argv[1]);
-	kruskal(edge, n);
+	kruskal(matrice, n);
 	return 0;
 }
 

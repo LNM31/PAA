@@ -34,62 +34,35 @@ int citire(const char* file_name)
 	}
 	return n;
 }
-
-int minKey(int cheie[N], int vizitat[N], int size)
-{
-	int minim = inf, min_index = 0;
-	for (int i = 0; i < size; i++)
-	{
-		if (vizitat[i] == 0 && cheie[i] < minim)
-		{
-			minim = cheie[i];
-			min_index = i;
-		}
-	}
-	return min_index;
-}
-
-void display(int matrice[N][N],int parinte[N], int size)
-{
-	int val = 0;
-	printf("muchie  val\n");
-	for (int i = 1; i < size; i++)
-	{
-		printf("%d - %d   %d\n", parinte[i], i, matrice[parinte[i]][i]);
-		val += matrice[parinte[i]][i];
-	}
-	printf("\nval: %d\n", val);
-}
-
 void prim(int matrice[N][N], int size)
 {
-	int cheie[N];
-	int parinte[N];
-	int vizitat[N];
-
+	int u[N];
 	for (int i = 0; i < size; i++)
 	{
-		cheie[i] = inf;
-		vizitat[i] = 0;
+		u[i] = 0;
 	}
-
-	cheie[0] = 0;
-	parinte[0] = -1;
-
-	for (int i = 0; i < size - 1; i++)
+	u[0] = 1;
+	int min,mini,minj,val=0;
+	for (int pas = 0; pas < size - 1; pas++)
 	{
-		int u = minKey(cheie, vizitat, size);
-		vizitat[u] = 1;
-		for (int v = 0; v < size; v++)
+		min = inf; mini = -1; minj = -1;
+		for (int i = 0; i < size; i++)
 		{
-			if (matrice[u][v] && vizitat[v] == 0 && matrice[u][v] < cheie[v])
+			for (int j = 0; j < size; j++)
 			{
-				cheie[v] = matrice[u][v];
-				parinte[v] = u;
+				if (matrice[i][j] && u[i] != u[j] && matrice[i][j] < min)
+				{
+					min = matrice[i][j];
+					mini = i;
+					minj = j;
+				}
 			}
 		}
+		u[mini] = u[minj] = 1;
+		printf("%d - %d   %d\n", mini, minj, matrice[mini][minj]);
+		val += matrice[mini][minj];
 	}
-	display(matrice, parinte, size);
+	printf("\nval: %d\n", val);
 }
 int main(int argc, char** argv)
 {
