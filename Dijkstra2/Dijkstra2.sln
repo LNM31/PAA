@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dijkstra2", "Dijkstra2.vcxproj", "{27FBE0D5-8EB6-43CF-B26F-A66E2F3E5B3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27FBE0D5-8EB6-43CF-B26F-A66E2F3E5B3E}.Debug|x64.ActiveCfg = Debug|x64
+		{27FBE0D5-8EB6-43CF-B26F-A66E2F3E5B3E}.Debug|x64.Build.0 = Debug|x64
+		{27FBE0D5-8EB6-43CF-B26F-A66E2F3E5B3E}.Debug|x86.ActiveCfg = Debug|Win32
+		{27FBE0D5-8EB6-43CF-B26F-A66E2F3E5B3E}.Debug|x86.Build.0 = Debug|Win32
+		{27FBE0D5-8EB6-43CF-B26F-A66E2F3E5B3E}.Release|x64.ActiveCfg = Release|x64
+		{27FBE0D5-8EB6-43CF-B26F-A66E2F3E5B3E}.Release|x64.Build.0 = Release|x64
+		{27FBE0D5-8EB6-43CF-B26F-A66E2F3E5B3E}.Release|x86.ActiveCfg = Release|Win32
+		{27FBE0D5-8EB6-43CF-B26F-A66E2F3E5B3E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA6C0F2A-7D90-48CF-B72B-400E999B0ED9}
+	EndGlobalSection
+EndGlobal

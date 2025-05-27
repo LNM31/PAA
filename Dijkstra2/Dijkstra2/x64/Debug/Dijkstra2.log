@@ -1,0 +1,3 @@
+﻿  dijk.c
+C:\Users\leoma\Desktop\WorkSpace\PAA\Dijkstra2\dijk.c(27,1): warning C4716: 'init': must return a value
+  Dijkstra2.vcxproj -> C:\Users\leoma\Desktop\WorkSpace\PAA\Dijkstra2\x64\Debug\Dijkstra2.exe
