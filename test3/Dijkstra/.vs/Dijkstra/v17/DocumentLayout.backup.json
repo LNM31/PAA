@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leoma\\Desktop\\Dijkstra\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E265C1FF-2129-4536-B34E-4FFD46AE658B}|Dijkstra.vcxproj|C:\\Users\\leoma\\Desktop\\Dijkstra\\dijkstra.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E265C1FF-2129-4536-B34E-4FFD46AE658B}|Dijkstra.vcxproj|solutionrelative:dijkstra.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E265C1FF-2129-4536-B34E-4FFD46AE658B}|Dijkstra.vcxproj|C:\\Users\\leoma\\Desktop\\Dijkstra\\in.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E265C1FF-2129-4536-B34E-4FFD46AE658B}|Dijkstra.vcxproj|solutionrelative:in.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "in.txt",
+              "DocumentMoniker": "C:\\Users\\leoma\\Desktop\\Dijkstra\\in.txt",
+              "RelativeDocumentMoniker": "in.txt",
+              "ToolTip": "C:\\Users\\leoma\\Desktop\\Dijkstra\\in.txt",
+              "RelativeToolTip": "in.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-27T18:36:01.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dijkstra.c",
+              "DocumentMoniker": "C:\\Users\\leoma\\Desktop\\Dijkstra\\dijkstra.c",
+              "RelativeDocumentMoniker": "dijkstra.c",
+              "ToolTip": "C:\\Users\\leoma\\Desktop\\Dijkstra\\dijkstra.c",
+              "RelativeToolTip": "dijkstra.c",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAH4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-27T18:11:30.796Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

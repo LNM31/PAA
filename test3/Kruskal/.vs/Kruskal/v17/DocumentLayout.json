@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leoma\\Desktop\\Kruskal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{537E677D-27D4-483F-8D9D-C22E7DF0C4FC}|Kruskal.vcxproj|C:\\Users\\leoma\\Desktop\\Kruskal\\kruskal.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{537E677D-27D4-483F-8D9D-C22E7DF0C4FC}|Kruskal.vcxproj|solutionrelative:kruskal.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{537E677D-27D4-483F-8D9D-C22E7DF0C4FC}|Kruskal.vcxproj|C:\\Users\\leoma\\Desktop\\Kruskal\\in.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{537E677D-27D4-483F-8D9D-C22E7DF0C4FC}|Kruskal.vcxproj|solutionrelative:in.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "in.txt",
+              "DocumentMoniker": "C:\\Users\\leoma\\Desktop\\Kruskal\\in.txt",
+              "RelativeDocumentMoniker": "in.txt",
+              "ToolTip": "C:\\Users\\leoma\\Desktop\\Kruskal\\in.txt",
+              "RelativeToolTip": "in.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-27T16:59:58.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "kruskal.c",
+              "DocumentMoniker": "C:\\Users\\leoma\\Desktop\\Kruskal\\kruskal.c",
+              "RelativeDocumentMoniker": "kruskal.c",
+              "ToolTip": "C:\\Users\\leoma\\Desktop\\Kruskal\\kruskal.c",
+              "RelativeToolTip": "kruskal.c",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAFEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-27T16:59:37.429Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

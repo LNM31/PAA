@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\leoma\Desktop\fasfas\main.c(72,1): warning C4716: 'func': must return a value
+C:\Users\leoma\Desktop\fasfas\main.c(102,1): warning C4716: 'func2': must return a value
+  fasfas.vcxproj -> C:\Users\leoma\Desktop\fasfas\x64\Debug\fasfas.exe
