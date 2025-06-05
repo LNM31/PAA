@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leoma\\Desktop\\AN2S2\\PAA\\LAB4_TEST\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E68AA773-A826-4BE0-9BA7-9101D69E3807}|LAB4_TEST.vcxproj|C:\\Users\\leoma\\Desktop\\AN2S2\\PAA\\LAB4_TEST\\bib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E68AA773-A826-4BE0-9BA7-9101D69E3807}|LAB4_TEST.vcxproj|solutionrelative:bib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68AA773-A826-4BE0-9BA7-9101D69E3807}|LAB4_TEST.vcxproj|C:\\Users\\leoma\\Desktop\\AN2S2\\PAA\\LAB4_TEST\\bib.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E68AA773-A826-4BE0-9BA7-9101D69E3807}|LAB4_TEST.vcxproj|solutionrelative:bib.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68AA773-A826-4BE0-9BA7-9101D69E3807}|LAB4_TEST.vcxproj|C:\\Users\\leoma\\Desktop\\AN2S2\\PAA\\LAB4_TEST\\fis.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E68AA773-A826-4BE0-9BA7-9101D69E3807}|LAB4_TEST.vcxproj|solutionrelative:fis.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68AA773-A826-4BE0-9BA7-9101D69E3807}|LAB4_TEST.vcxproj|C:\\Users\\leoma\\Desktop\\AN2S2\\PAA\\LAB4_TEST\\in.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E68AA773-A826-4BE0-9BA7-9101D69E3807}|LAB4_TEST.vcxproj|solutionrelative:in.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68AA773-A826-4BE0-9BA7-9101D69E3807}|LAB4_TEST.vcxproj|C:\\Users\\leoma\\Desktop\\AN2S2\\PAA\\LAB4_TEST\\out.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E68AA773-A826-4BE0-9BA7-9101D69E3807}|LAB4_TEST.vcxproj|solutionrelative:out.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "bib.c",
+              "DocumentMoniker": "C:\\Users\\leoma\\Desktop\\AN2S2\\PAA\\LAB4_TEST\\bib.c",
+              "RelativeDocumentMoniker": "bib.c",
+              "ToolTip": "C:\\Users\\leoma\\Desktop\\AN2S2\\PAA\\LAB4_TEST\\bib.c",
+              "RelativeToolTip": "bib.c",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-18T19:30:21.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "in.txt",
+              "DocumentMoniker": "C:\\Users\\leoma\\Desktop\\AN2S2\\PAA\\LAB4_TEST\\in.txt",
+              "RelativeDocumentMoniker": "in.txt",
+              "ToolTip": "C:\\Users\\leoma\\Desktop\\AN2S2\\PAA\\LAB4_TEST\\in.txt",
+              "RelativeToolTip": "in.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-03-18T19:32:08.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "out.txt",
+              "DocumentMoniker": "C:\\Users\\leoma\\Desktop\\AN2S2\\PAA\\LAB4_TEST\\out.txt",
+              "RelativeDocumentMoniker": "out.txt",
+              "ToolTip": "C:\\Users\\leoma\\Desktop\\AN2S2\\PAA\\LAB4_TEST\\out.txt",
+              "RelativeToolTip": "out.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-03-18T19:54:40.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "bib.h",
+              "DocumentMoniker": "C:\\Users\\leoma\\Desktop\\AN2S2\\PAA\\LAB4_TEST\\bib.h",
+              "RelativeDocumentMoniker": "bib.h",
+              "ToolTip": "C:\\Users\\leoma\\Desktop\\AN2S2\\PAA\\LAB4_TEST\\bib.h",
+              "RelativeToolTip": "bib.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-18T19:30:10.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "fis.c",
+              "DocumentMoniker": "C:\\Users\\leoma\\Desktop\\AN2S2\\PAA\\LAB4_TEST\\fis.c",
+              "RelativeDocumentMoniker": "fis.c",
+              "ToolTip": "C:\\Users\\leoma\\Desktop\\AN2S2\\PAA\\LAB4_TEST\\fis.c",
+              "RelativeToolTip": "fis.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-18T19:07:12.432Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
