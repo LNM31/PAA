@@ -1,0 +1,7 @@
+    Structura de date aleasa pentru aceasta problema este un arbore binar complet.Am ales aceasta structura deoarece avem cate doua 
+care concureaza una impotriva alteia,iar castigatorul dintre astea doua merge mai departe,mai exact,cele doua echipe reprezinta
+fiul stang,respectiv,fiul drept,iar parintele celor doi fii reprezinta echipa care trece mai departe.
+    Toate echipele sunt la inceput frunze ,iar castigatorii fiecarui meci vor urca pe nodurile de pe nivelurile inferioare pana cand
+o echipa ajunge la radacina,radacina fiind echipa care a castigat turneul
+
+    

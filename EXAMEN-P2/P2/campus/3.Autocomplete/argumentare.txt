@@ -1,0 +1,4 @@
+Structura de date aleasa pentru aceasta problema este un arbore de regasire,deoarece aceasta structura ofera o cautare eficienta a 
+cuvintelor si prefixelor,mai exact cautarea este direct proportionala cu lungimea cuvantului de cautat si nu cu numarul de cuvinte
+,O(L) ,L-lungimea medie a unui cuvant.De asemenea,sunt cea mai buna alegere pentru autocompletari,deoarece in functie prefix ,putem
+gasi foarte usor cuvintele care incep cu acel prefix.

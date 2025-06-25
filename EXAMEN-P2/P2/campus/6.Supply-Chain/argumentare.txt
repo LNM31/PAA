@@ -1,0 +1,3 @@
+Structura de date aleasa pentru aceasta problema este un grad orientat neponderat,in care nodurile reprezinta
+supply urile ,iar muchiile reprezinta relatiile dintre ele.Pentru a determina toate relatiile dintre supply uri
+ne vom folosi de algoritmul lui Warshall,care se foloseste de un nod intermediar k pentru a gasi toate realtiile

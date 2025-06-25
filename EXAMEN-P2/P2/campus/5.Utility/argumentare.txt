@@ -1,0 +1,4 @@
+Ca sa aflam costul minim pentru a conecta tot orasul va trebui sa ne folosim de algoritmul lui 
+Kruskal ,acesta ofera conectivitate completa intre vecinatati(neighborhoods),evita ciclurile care
+duc la redundanta si determina cel mai mic cost total.Algoritmul lui Kruskal selecteaza in ordine 
+crescatoare toate muchiile astfel incat fiecare muchie sa adauge cate un nod in arborele de acoperire minim 

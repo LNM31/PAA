@@ -1,0 +1,3 @@
+Structura aleasa pentru aceasta problema este un graf neorientat si neponderat.Am ales aceasta structura,deoarece oamenii,in sine,
+reprezinta nodurile,iar muchiile sunt legaturile dintre ei(relatiile de prietenie).Din aceasta structura putem determina grupurile
+izolate de prieteni,numarul lor,cel mai mare grup si acei oameni care fac legatura intre doua grupuri complet separate.

@@ -1,0 +1,4 @@
+Aceasta structura nu este buna ,deoarece nu are datele nu sunt ordonate si nu au un criteriu bun de cautare,ceea ce o face foarte
+ineficienta.Avand in vedere ca avem milioane de carti,cea mai buna structura de date pentru aceasta problema ar fi implementarea cu
+arbori B,deoarece datele sunt ordonate pe categorii si ne aduce o cautare a datelor foarte eficienta ca timp O(h*log2n),unde h
+reprezinta inaltimea arborelui,iar n ,numarul maxim de noduri dintr o pagina a arborelui.
