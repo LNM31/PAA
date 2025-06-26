@@ -1,16 +1,14 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-
 #define N 3
 #define NN 5
-#define MAX 256
 
 typedef char TipCheie;
 
 struct Nod
 {
-	TipCheie cheie[MAX];
+	TipCheie cheie[128];
 	struct Pagina* p;
 	int contor;
 };
@@ -142,67 +140,13 @@ void afisare(Pagina *radacina,int nivel)
     printf("Nivel %d: ",nivel);
     for(int i=1;i<=radacina->m;i++)
     {
-        printf("%s",radacina->e[i].cheie);
+        printf("%s ",radacina->e[i].cheie);
     }
-    
     printf("\n");
+
     afisare(radacina->p0,nivel+1);
-
     for(int i=1;i<=radacina->m;i++)
-        afisare(radacina->e[i].p,nivel+1);
-    
-}
-int cautare(Pagina *radacina,TipCheie *x)
-{
-    if(radacina==NULL)
-        return 0;
-    
-    int st=1,dr=radacina->m;
-    int mij;
-
-    while(st<=dr)
-    {
-        mij=(st+dr)/2;
-        if(strcmp(x,radacina->e[mij].cheie)==0)
-            return 1;
-        else if(strcmp(x,radacina->e[mij].cheie)<0)
-            dr=mij-1;
-        else
-            st=mij+1;
-    }
-    if(dr==0)
-        return cautare(radacina->p0,x);
-    else
-        return cautare(radacina->e[dr].p,x);
-
-}
-void cautare2(Pagina *pag, TipCheie *x,int *rez)
-{
-	/*Cauta cheia x in arbore. Returneaza 1 daca cheia exista, 0 daca nu exista.*/
-	int s, d, mij;
-
-	if (pag == NULL)
-		return;
-
-	s = 1;
-	d = pag->m;
-	while (s <= d) //cautare binara
-	{
-		mij = (s + d) / 2;
-		if (x == pag->e[mij].cheie)
-			{
-				*rez=1;
-				return;
-			}
-		if (x < pag->e[mij].cheie)
-			d = mij - 1;
-		else
-			s = mij + 1;
-	}
-	if (d == 0)
-		cautare(pag->p0, x);
-	else 
-		cautare(pag->e[d].p, x);
+        afisare(radacina->e[i].p,nivel + 1);
 }
 void citire(Pagina **radacina,const char *file_name)
 {
@@ -223,31 +167,47 @@ void citire(Pagina **radacina,const char *file_name)
         exit(-1);
     }
 }
+int cautare(Pagina *radacina,const char *category)
+{
+    if(radacina==NULL)
+        return 0;
+    
+    int st=1,dr=radacina->m;
+    int mij=0;
+    while(st<=dr)
+    {
+        mij=(st + dr)/2;
+        if(strcmp(category,radacina->e[mij].cheie)==0)
+            return 1;
+        if(strcmp(category,radacina->e[mij].cheie) < 0)
+            dr=mij - 1;
+        else
+            st=mij + 1;
+    }
+
+    if(dr==0)
+        return cautare(radacina->p0,category);
+    
+    return cautare(radacina->e[dr].p,category);
+}
 int main(int argc,char **argv)
 {
-	if(argc!=3)
-	{
-		perror("Error arguments");
-		exit(-1);
-	}
+    if(argc!=2)
+    {
+        perror("Error arguments!\n");
+        exit(-1);
+    }
+
     Pagina *radacina=NULL;
-    citire(&radacina,argv[1]);
+    citire(&radacina,"in.txt");
     afisare(radacina,0);
+
     printf("\n");
-    if(cautare(radacina,argv[2])==1)
+    if(cautare(radacina,argv[1])==1)
         printf("S-a gasit!\n");
     else
         {
 			printf("Nu s-a gasit!\n");
 		}
-
-	
-	int rez=0;
-	cautare2(radacina,argv[2],&rez);
-	if(rez==1)
-        printf("S-a gasit!\n");
-    else
-        printf("Nu s-a gasit!\n");
-
     return 0;
 }

@@ -2,7 +2,7 @@ Fiction
 Adventure
 Biography
 History
-Mathematics
+Math
 Physics
 Art
 Chemistry
